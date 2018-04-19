@@ -4,14 +4,10 @@ Layout
 
 */
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 /* For mobile phones content layout: */
 [class*="col-"] {
-    float: left;
     margin: 0;
     width: 100%;
 }
