@@ -1,0 +1,21 @@
+/* 
+
+Modules / Components
+
+*/
+
+
+/* banner */
+.banner {
+    margin: 0;
+    background-color: burlywood;
+    height: 20em;
+}
+
+/* article */
+.article {
+    /* border: 1px solid aquamarine; */
+    background-color: lightgray;
+    margin: 0.5em;
+    padding: 0.5em;
+}
