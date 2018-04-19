@@ -7,33 +7,7 @@ body {
     margin: 0;
 }
 
-/* Navigation */
-header {
-    background-color: bisque;
-    width: 100%;
-}
-header h1 {
-    margin: 0;
-    display: inline;
-}
-nav {
-    display: inline;
-    /* font-size: 0; */
-}
-nav ul {
-    /* display: inline-bl   ock; */
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    background-color: royalblue;
-    list-style-type: none;
-    padding: 8px 0;
-    text-align: center;
-}
-
-nav ul li a{ 
-    color: white;
-    text-decoration: none;
+body .wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
 }

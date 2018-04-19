@@ -1,3 +1,20 @@
 @import url('./layout.css');
 @import url('./module.css');
 @import url('./base.css');
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    background-color: royalblue;
+    list-style-type: none;
+    padding: 8px 8px;
+    text-align: center;
+}
+
+nav ul li a{ 
+    color: white;
+    text-decoration: none;
+}
