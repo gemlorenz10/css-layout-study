@@ -15,4 +15,4 @@ $npm run serve
 ```
 
 ## Target layout
-![alt text](http://www.monitis.com/blog/wp-content/uploads/uploads/2013/11/pic-3.png)
+![alt text](./css-layout.png)
