@@ -6,14 +6,20 @@ Modules / Components
 
 
 /* banner */
+/* h2 has margin and it overflows in the .banner */
 .banner {
+    overflow: hidden;
     margin: 0;
     background-color: burlywood;
     height: 20em;
 }
 
+
+
+
 /* article */
 .article {
+    overflow: hidden;
     background-color: lightgray;
     margin: 0.5em;
     padding: 0.5em;
