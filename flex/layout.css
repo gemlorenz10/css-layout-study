@@ -30,23 +30,11 @@ nav ul {
 
 @media screen and (min-width: 601px) {
     /* For tablets to mobile: */
-    nav {
-        flex-direction: row;
-    }
-    nav ul {
-        flex-direction: row;
-    }
+    nav { flex-direction: row; }
+    nav ul { flex-direction: row;}
 }
 @media screen and (min-width: 769px) {
     /* For desktop to tables: */
-    nav {
-        flex-direction: row;
-    }
-    nav ul {
-        flex-direction: row;
-    }
-}
-
-footer {
-    background-color: palegoldenrod
+    nav { flex-direction: row; }
+    nav ul { flex-direction: row; }
 }

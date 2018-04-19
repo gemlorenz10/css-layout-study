@@ -4,6 +4,29 @@ Modules / Components
 
 */
 
+/* Header */
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    background-color: royalblue;
+    list-style-type: none;
+    padding: 8px 8px;
+    text-align: center;
+}
+
+nav ul li a{ 
+    color: white;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: palegoldenrod
+}
+
+
 
 /* banner */
 .banner {
