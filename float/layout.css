@@ -12,9 +12,9 @@ Layout
 /* For mobile phones content layout: */
 [class*="col-"] {
     float: left;
-    margin: 0;
     width: 100%;
 }
+
 
 /* For mobile phones navigation: */
 [class*="nav-"] {
