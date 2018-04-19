@@ -8,7 +8,7 @@ $npm run serve
 ```
 ## Change CSS file into either float or  flex
 ```HTML
-    <!-- Choose display layout -->
+    <!-- Choose layout style -->
     <link rel="stylesheet" href="float/style.css">
     <!-- Or -->
     <!-- <link rel="stylesheet" href="flex/style.css"> -->
