@@ -1,30 +1,5 @@
-/* 
-
-Layout
-
-*/
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* For mobile phones content layout: */
-[class*="col-"] {
-    float: left;
-    width: 100%;
-}
-
-
-/* For mobile phones navigation: */
-[class*="nav-"] {
-    display:inline-block;
-    margin: 0;
-    width: 100%;
-}
-
 @media screen and (min-width: 601px) {
-    /* For tablets to mobile: */
+    /* For tablets: */
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
     .col-s-3 {width: 25%;}
@@ -53,7 +28,7 @@ Layout
 
 }
 @media screen and (min-width: 769px) {
-    /* For desktop to tables: */
+    /* For desktop */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
     .col-3 {width: 25%;}
@@ -67,7 +42,7 @@ Layout
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 
-    /* .nav-1 {width: 8.33%;}
+    .nav-1 {width: 8.33%;}
     .nav-2 {width: 16.66%;}
     .nav-3 {width: 25%;}
     .nav-4 {width: 33.33%;}
@@ -78,10 +53,6 @@ Layout
     .nav-9 {width: 75%;}
     .nav-10 {width: 83.33%;}
     .nav-11 {width: 91.66%;}
-    .nav-12 {width: 100%;} */
+    .nav-12 {width: 100%;}
 
-}
-
-footer {
-    background-color: palegoldenrod
 }

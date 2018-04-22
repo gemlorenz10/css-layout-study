@@ -1,12 +1,8 @@
 /* 
 
-Base
+Modules / Components
 
 */
-html, body {
-    margin: 0;
-    padding: 0;
-}
 
 /* Navigation */
 header {
@@ -35,4 +31,24 @@ nav ul li {
 nav ul li a{ 
     color: white;
     text-decoration: none;
+}
+
+
+/* banner */
+/* h2 has margin and it overflows in the .banner */
+.banner {
+    overflow: hidden;
+    margin: 0;
+    background-color: burlywood;
+    height: 20em;
+}
+
+
+
+
+/* article */
+.article {
+    background-color: lightgray;
+    margin: 0.5em;
+    padding: 0.5em;
 }

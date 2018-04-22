@@ -4,15 +4,13 @@ Basic css layout study - made for educational purposes only.
 ## Run
 ```
 $npm i
-$npm run serve
+$npm run serve:option
 ```
+### Run option
+* float - css layout that uses float
+* nav - run pure css navbar
 ## Change CSS file into either float or  flex
-```HTML
-    <!-- Choose layout style -->
-    <link rel="stylesheet" href="float/style.css">
-    <!-- Or -->
-    <!-- <link rel="stylesheet" href="flex/style.css"> -->
-```
+
 
 ## Target layout
 ![alt text](./css-layout.png)

@@ -1,0 +1,28 @@
+/* 
+
+Layout
+
+*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class*="col-"] {
+    float: left;
+    width: 100%;
+}
+
+
+[class*="nav-"] {
+    display:inline-block;
+    margin: 0;
+    width: 100%;
+}
+
+
+
+footer {
+    background-color: palegoldenrod
+}
