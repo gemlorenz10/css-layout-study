@@ -5,9 +5,7 @@
   "main": "index.htlml",
   "scripts": {
     "test": "",
-    "serve:float": "node_modules/.bin/browser-sync start -s float/  -f float/**/*",
-    "serve:flex": "node_modules/.bin/browser-sync start -s flex/  -f flex/**/*",
-    "serve:nav": "node_modules/.bin/browser-sync start -s responsive-navbar/  -f responsive-navbar/**/*"
+    "serve": "node_modules/.bin/browser-sync start -s float/  -f float/**/*"
   },
   "repository": {
     "type": "git",
